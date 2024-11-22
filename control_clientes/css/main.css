@@ -1,0 +1,58 @@
+.rotate{
+    transition: all .5s ease;
+}
+.rotate:hover{
+    transform: rotate(180deg);
+}
+.tbl-no-padd{
+
+}
+.tbl-no-padd tr:hover{
+    background-color: #eeeeee;
+}
+.tbl-no-padd td{
+    line-height: 10px;
+    padding: 0;
+}
+
+.bl{
+    border-left: 1px solid #ffffff;
+}
+
+.resumen{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.resumen .resumen-content{
+    height: 350px;
+    background-color: #ffffff;
+    border: 12px solid #e23428;
+    padding: 5px;
+    overflow-y: auto;
+}
+.resumen .resumen-buttom{
+    width: 400px;
+    height: 30px;
+    float: right;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+.resumen .resultados{
+    background-color: #f44336;
+    color: #ffffff;
+}
+.resumen .resultados:hover{
+    background-color: #f52e20;
+}
+.resumen .imprimir{
+    background-color: #d32f2f;
+    color: #ffffff;
+}
+.resumen .imprimir:hover{
+    background-color: #b42424;
+}

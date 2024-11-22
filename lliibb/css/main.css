@@ -1,0 +1,181 @@
+/*Creado por Bryan Alejandro Chamba Freire*/
+.blue {
+  background-color: #498EFE;
+  color: #ffffff;
+}
+
+.red {
+  background-color: #FF1C1C;
+  color: #ffffff;
+}
+
+.green {
+  background-color: #27FF1C;
+  color: #353535;
+}
+
+.yellow {
+  background-color: #F7FF00;
+  color: #353535;
+}
+
+.white {
+  background-color: #ffffff;
+  color: #353535;
+}
+
+.blue-gray {
+  background-color: #546e7a;
+  color: #ffffff;
+}
+
+.txtRed {
+  color: #FF170F;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-red {
+  color: #FF0000;
+}
+
+.text-green {
+  color: #00FF00;
+}
+
+.text-green-l1 {
+  color: #85bb65;
+}
+
+.text-blue {
+  color: #0000FF;
+}
+
+.text-blue-gray {
+  color: #34495E;
+}
+
+.text-coffe {
+  color: #EB984E;
+}
+
+text-green {
+  color: #27FF1C;
+}
+
+text-yellow {
+  color: #F7FF00;
+}
+
+.fas {
+  cursor: pointer;
+}
+
+.ic-small {
+  font-size: 10px;
+}
+
+.ic-medium {
+  font-size: 14px;
+}
+
+.ic-large {
+  font-size: 18px;
+}
+
+.ic-xlarge {
+  font-size: 22px;
+}
+
+.ic-xxlarge {
+  font-size: 26px;
+}
+
+.ic-xxxlarge {
+  font-size: 30px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 15px;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+#contenedor {
+  background-color: #ffffff;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+}
+
+#dv_disponibilidad {
+  width: 100%;
+  overflow: auto;
+  border-left: 1px solid #ababab;
+}
+
+#dv_disponibilidad div {
+  width: 100%;
+  margin-bottom: .6em;
+}
+
+#dv_disponibilidad table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #cccccc;
+}
+
+#dv_disponibilidad table thead {
+  background-color: #546e7a;
+  color: #ffffff;
+  border: 0;
+}
+
+#dv_disponibilidad table tr:hover {
+  background-color: #94B8F1;
+}
+
+#dv_disponibilidad table td {
+  padding: 0 4px !important;
+}
+
+#dv_disponibilidad table td:hover {
+  background-color: #699BEC;
+}
+
+#dv_disponibilidad table textarea {
+  border: 0;
+  outline: none;
+}
+
+/*----------------------------------------------------------------*/
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.center {
+  text-align: center;
+}
+
+.divider {
+  width: 100%;
+  border-bottom: 2px solid #ababab;
+  margin: 5px 0;
+}
+/*# sourceMappingURL=main.css.map */

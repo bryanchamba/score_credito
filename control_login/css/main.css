@@ -1,0 +1,32 @@
+body{
+    background-image: url(../../lliibb/img/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+form{
+    max-width: 450px;
+    margin-top: 8%;
+    /* border: 1px solid #817373; */
+    border-radius: 6px;
+    padding: 50px 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+form button{
+    width: 100%;
+    margin: 20px 0 5px 0;
+}
+
+.version{
+    position: absolute;
+    right: 5px;
+    bottom: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 5px;
+    border-radius: 4px;
+    -webkit-box-shadow: 1px 2px 4px rgba(0,0,0,.8);
+    -moz-box-shadow: 1px 2px 4px rgba(0,0,0,.8);
+    box-shadow: 1px 2px 4px rgba(0,0,0,.8);
+}

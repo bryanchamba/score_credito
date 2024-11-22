@@ -1,0 +1,28 @@
+body{
+    overflow-y: hidden;
+}
+header,
+footer {
+    padding-left: 300px;
+}
+
+main{
+    position: absolute;
+    top: 0;
+    left: 300px;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    opacity: 0.9;
+}
+
+@media only screen and (max-width : 992px) {
+    header,
+    footer {
+        padding-left: 0;
+    }
+    main{
+        position: absolute;
+        left: 0;
+    }
+}
